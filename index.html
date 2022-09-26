@@ -18,6 +18,19 @@
     
   </head>
   <body>
+	  
+  <script>
+      function checkEvt()
+      {
+    	  var evTypep=window.performance.getEntriesByType("navigation")[0].type;
+            if (evTypep=='reload')
+            {
+              window.location.replace("https://ayush29874110899.github.io/ayushprof.github.io/");
+            }
+      
+      }
+      checkEvt();
+    </script>
 
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
